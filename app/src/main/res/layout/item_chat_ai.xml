@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="start"
+    android:layout_marginVertical="4dp">
+
+    <!-- Avatar del coach -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_gravity="top"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        app:cardBackgroundColor="@color/accent_color">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_fitness"
+            android:tint="@android:color/white" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Mensaje de la IA -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="2dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:maxWidth="280dp">
+
+            <TextView
+                android:id="@+id/txtNombreCoach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coach ADAPTIA"
+                android:textColor="@color/primary_color"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/txtMensajeAI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Respuesta de la IA"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:lineSpacingExtra="2dp" />
+
+            <TextView
+                android:id="@+id/txtTiempoAI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="12:30"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

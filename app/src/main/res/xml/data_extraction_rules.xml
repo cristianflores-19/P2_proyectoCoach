@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-extraction disallowed="true" />
+    <device-transfer disallowed="true" />
+</data-extraction-rules>
+

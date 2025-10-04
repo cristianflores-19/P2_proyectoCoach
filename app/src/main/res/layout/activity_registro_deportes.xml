@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/primary_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/selecciona_deportes"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Título -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/deportes_favoritos"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:gravity="center"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Grid de deportes -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Fila 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="12dp">
+
+                    <Button
+                        android:id="@+id/btnGym"
+                        style="@style/SportButton"
+                        android:text="@string/gym"
+                        android:drawableTop="@drawable/ic_gym"
+                        android:background="@drawable/sport_button_unselected" />
+
+                    <Button
+                        android:id="@+id/btnCiclismo"
+                        style="@style/SportButton"
+                        android:text="@string/ciclismo"
+                        android:drawableTop="@drawable/ic_cycling"
+                        android:background="@drawable/sport_button_unselected" />
+
+                    <Button
+                        android:id="@+id/btnFutbol"
+                        style="@style/SportButton"
+                        android:text="@string/futbol"
+                        android:drawableTop="@drawable/ic_football"
+                        android:background="@drawable/sport_button_unselected" />
+
+                </LinearLayout>
+
+                <!-- Fila 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="12dp">
+
+                    <Button
+                        android:id="@+id/btnTenis"
+                        style="@style/SportButton"
+                        android:text="@string/tenis"
+                        android:drawableTop="@drawable/ic_tennis"
+                        android:background="@drawable/sport_button_unselected" />
+
+                    <Button
+                        android:id="@+id/btnBasquetbol"
+                        style="@style/SportButton"
+                        android:text="@string/basquetbol"
+                        android:drawableTop="@drawable/ic_basketball"
+                        android:background="@drawable/sport_button_unselected" />
+
+                    <Button
+                        android:id="@+id/btnNatacion"
+                        style="@style/SportButton"
+                        android:text="@string/natacion"
+                        android:drawableTop="@drawable/ic_swimming"
+                        android:background="@drawable/sport_button_unselected" />
+
+                </LinearLayout>
+
+                <!-- Fila 3 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="12dp">
+
+                    <Button
+                        android:id="@+id/btnCorrer"
+                        style="@style/SportButton"
+                        android:text="@string/correr"
+                        android:drawableTop="@drawable/ic_running"
+                        android:background="@drawable/sport_button_unselected" />
+
+                    <Button
+                        android:id="@+id/btnBoxeo"
+                        style="@style/SportButton"
+                        android:text="@string/boxeo"
+                        android:drawableTop="@drawable/ic_boxing"
+                        android:background="@drawable/sport_button_unselected" />
+
+                    <Button
+                        android:id="@+id/btnVoleibol"
+                        style="@style/SportButton"
+                        android:text="@string/voleibol"
+                        android:drawableTop="@drawable/ic_volleyball"
+                        android:background="@drawable/sport_button_unselected" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Deportes seleccionados -->
+            <TextView
+                android:id="@+id/txtDeportesSeleccionados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No has seleccionado deportes"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- Botones inferiores -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/background_white">
+
+        <Button
+            android:id="@+id/btnVolver"
+            style="@style/Widget.CoachPrueba.Button.Outline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/volver"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnFinalizar"
+            style="@style/Widget.CoachPrueba.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Finalizar Registro"
+            android:layout_marginStart="8dp"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">CoachPrueba</string>
+
+    <!-- Pantalla principal -->
+    <string name="adaptia_title">ADAPTIA</string>
+    <string name="adaptia_subtitle">Tu coach virtual personalizado para alcanzar tus objetivos fitness</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="btn_iniciar_sesion">Iniciar Sesión</string>
+
+    <!-- Registro -->
+    <string name="registro_paso_1">Registro - Paso 1</string>
+    <string name="cuentanos_sobre_ti">Cuéntanos sobre ti</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="hint_nombre_completo">Nombre completo</string>
+    <string name="edad">Edad</string>
+    <string name="hint_edad">Edad</string>
+    <string name="peso_kg">Peso (kg)</string>
+    <string name="hint_peso">Peso</string>
+    <string name="altura_cm">Altura (cm)</string>
+    <string name="hint_altura">Altura en cm</string>
+    <string name="sexo">Sexo</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="hint_contrasena">Crear contraseña</string>
+    <string name="mi_objetivo_es">Mi objetivo es:</string>
+    <string name="perder_peso">Perder peso</string>
+    <string name="mejorar_resistencia">Mejorar resistencia</string>
+    <string name="ganar_musculo">Ganar músculo</string>
+    <string name="mantenerme_activo">Mantenerme activo</string>
+    <string name="continuar">Continuar</string>
+
+    <!-- Registro deportes -->
+    <string name="selecciona_deportes">Selecciona tus deportes favoritos</string>
+    <string name="deportes_favoritos">Deportes favoritos</string>
+    <string name="gym">GYM</string>
+    <string name="ciclismo">Ciclismo</string>
+    <string name="futbol">Fútbol</string>
+    <string name="tenis">Tenis</string>
+    <string name="basquetbol">Básquetbol</string>
+    <string name="natacion">Natación</string>
+    <string name="correr">Correr</string>
+    <string name="boxeo">Boxeo</string>
+    <string name="voleibol">Voleibol</string>
+    <string name="volver">Volver</string>
+    <string name="siguiente">Siguiente</string>
+
+    <!-- Login -->
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="hint_nombre_login">Ingresa tu nombre completo</string>
+    <string name="hint_contrasena_login">Ingresa tu contraseña</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+
+    <!-- Menú principal -->
+    <string name="main_menu">Menú Principal</string>
+    <string name="hola_usuario">¡Hola, Usuario!</string>
+    <string name="resumen_hoy">Aquí está tu resumen de hoy - %1$s</string>
+    <string name="rutina_activa">Rutina Activa</string>
+    <string name="mi_progreso">Mi Progreso</string>
+    <string name="rutinas_por_deporte">Rutinas por deporte - %1$s</string>
+    <string name="rutina_disponible">Rutina Disponible</string>
+    <string name="rutina_de_hoy">Rutina de hoy: %1$s</string>
+    <string name="activar">Activar</string>
+    <string name="ver_detalles">Ver detalles</string>
+    <string name="ejercicios">Ejercicios:</string>
+    <string name="plan_semanal">Plan semanal:</string>
+    <string name="calorias_quemadas_hoy">Calorías Quemadas Hoy</string>
+    <string name="ejercicios_de_hoy">Ejercicios de hoy:</string>
+
+    <!-- Días de la semana -->
+    <string name="lunes">L</string>
+    <string name="martes">M</string>
+    <string name="miercoles">M</string>
+    <string name="jueves">J</string>
+    <string name="viernes">V</string>
+    <string name="sabado">S</string>
+    <string name="domingo">D</string>
+
+    <!-- Navigation -->
+    <string name="rutinas">Rutinas</string>
+    <string name="coach_online">Coach Online</string>
+    <string name="progreso">Progreso</string>
+    <string name="mis_deportes">Mis Deportes</string>
+
+    <!-- Coach Online -->
+    <string name="coach_adaptia">Coach ADAPTIA</string>
+    <string name="en_linea">En línea</string>
+    <string name="mensaje_bienvenida">¡Hola! Soy tu coach virtual. ¿En qué puedo ayudarte hoy?</string>
+    <string name="hint_mensaje">Escribe un mensaje...</string>
+
+    <!-- Mis deportes -->
+    <string name="actualizar_deportes">Actualiza tus deportes favoritos</string>
+    <string name="deportes_seleccionados">Deportes Seleccionados:</string>
+
+    <!-- Estados y acciones -->
+    <string name="completado">Completado</string>
+    <string name="pausa">Pausa</string>
+    <string name="como_realizar_ejercicio">🔥 Cómo realizar el ejercicio:</string>
+    <string name="min_restantes">%1$d min restantes</string>
+    <string name="ejercicios_completados">%1$d/%2$d ejercicios</string>
+    <string name="tiempo_minutos">%1$d min</string>
+    <string name="calorias_kcal">%1$d kcal</string>
+
+    <!-- Sports (English equivalents for compatibility) -->
+    <string name="sports">Deportes</string>
+    <string name="add_sport">Agregar Deporte</string>
+    <string name="select_sports">Selecciona tus deportes</string>
+    <string name="football">Fútbol</string>
+    <string name="basketball">Básquetbol</string>
+    <string name="tennis">Tenis</string>
+    <string name="swimming">Natación</string>
+    <string name="running">Correr</string>
+    <string name="cycling">Ciclismo</string>
+    <string name="boxing">Boxeo</string>
+    <string name="volleyball">Voleibol</string>
+
+    <!-- Routines -->
+    <string name="routines">Rutinas</string>
+    <string name="routine_details">Detalle de Rutina</string>
+    <string name="exercises">Ejercicios</string>
+    <string name="start_routine">Iniciar Rutina</string>
+    <string name="mark_completed">Marcar Completada</string>
+    <string name="completed">Completada ✓</string>
+    <string name="duration">Duración</string>
+    <string name="calories">Calorías</string>
+    <string name="minutes">min</string>
+    <string name="kcal">kcal</string>
+
+    <!-- Progress -->
+    <string name="my_sports">Mis Deportes</string>
+    <string name="progress">Progreso</string>
+    <string name="online_coach">Coach Online</string>
+    <string name="weekly_progress">Progreso Semanal</string>
+    <string name="monthly_progress">Progreso Mensual</string>
+    <string name="total_workouts">Entrenamientos Totales</string>
+    <string name="total_time">Tiempo Total</string>
+    <string name="total_calories">Calorías Totales</string>
+
+    <!-- Common actions -->
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="continue_text">Continuar</string>
+    <string name="back">Volver</string>
+    <string name="next">Siguiente</string>
+    <string name="finish">Finalizar</string>
+    <string name="settings">Configuración</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <!-- Messages -->
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="loading">Cargando...</string>
+    <string name="no_data">No hay datos disponibles</string>
+    <string name="error_occurred">Ha ocurrido un error</string>
+    <string name="try_again">Intentar nuevamente</string>
+
+    <!-- Mensajes de error -->
+    <string name="error_campos_vacios">Por favor completa todos los campos</string>
+    <string name="error_login">Credenciales incorrectas</string>
+    <string name="error_registro">Error al registrar usuario</string>
+    <string name="registro_exitoso">Usuario registrado exitosamente</string>
+    <string name="login_exitoso">Bienvenido de vuelta</string>
+
+    <!-- General strings -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Validation messages -->
+    <string name="field_required">Este campo es obligatorio</string>
+    <string name="invalid_email">Correo electrónico inválido</string>
+    <string name="password_too_short">La contraseña es muy corta</string>
+    <string name="passwords_not_match">Las contraseñas no coinciden</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+
+    <!-- Accent colors -->
+    <color name="accent_color">#FF5722</color>
+    <color name="accent_light">#FF8A65</color>
+    <color name="accent_dark">#D84315</color>
+
+    <!-- Background colors -->
+    <color name="background_color">#FAFAFA</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_white">#FFFFFF</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_secondary_dark">#B0BEC5</color>
+    <color name="text_dark">#212121</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Additional colors -->
+    <color name="success_color">#4CAF50</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="error_color">#F44336</color>
+
+    <!-- Transparent colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#80000000</color>
+
+    <!-- Card and surface colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="border_light">#E0E0E0</color>
+
+    <!-- Sport specific colors -->
+    <color name="gym_color">#E91E63</color>
+    <color name="football_color">#4CAF50</color>
+    <color name="basketball_color">#FF9800</color>
+    <color name="tennis_color">#9C27B0</color>
+    <color name="swimming_color">#2196F3</color>
+    <color name="running_color">#795548</color>
+    <color name="cycling_color">#607D8B</color>
+    <color name="boxing_color">#F44336</color>
+    <color name="volleyball_color">#FFC107</color>
+    <color name="soccer_color">#8BC34A</color>
+    <color name="yoga_color">#673AB7</color>
+</resources>

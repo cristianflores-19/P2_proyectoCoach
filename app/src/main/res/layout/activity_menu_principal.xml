@@ -342,6 +342,19 @@
 
             </LinearLayout>
 
+            <!-- Botón Enviar Recordatorio -->
+            <Button
+                android:id="@+id/btnEnviarRecordatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enviar Recordatorio Fitness"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_primary"
+                android:padding="16dp"
+                android:layout_marginBottom="100dp" />
+
         </LinearLayout>
 
     </ScrollView>

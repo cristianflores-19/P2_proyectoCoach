@@ -1,0 +1,92 @@
+{
+  "name": "Sistema Logros ADAPTIA - Sin Counter",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "logro-fitness",
+        "options": {}
+      },
+      "id": "87e409b3-6234-44f8-ace6-d40f9925283b",
+      "name": "Webhook - Rutina Completada",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        448,
+        240
+      ],
+      "webhookId": "2aafbc25-46bd-42b1-bce0-b7a349ccbf9e"
+    },
+    {
+      "parameters": {
+        "functionCode": "// Para la demo - siempre muestra mensaje motivacional\nreturn {\n  mensaje: \"¡Rutina completada! 🎉\",\n  contador: \"Sigue acumulando logros 💪\"\n};"
+      },
+      "id": "6c11aa3d-003d-45aa-b15e-9a5225a930ec",
+      "name": "Function - Contar y Verificar",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        672,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "1561935008",
+        "text": "=¡FELICIDADES! 🏆\n\nHas completado una rutina en ADAPTIA 💪\n\nCada entrenimiento te acerca a tus metas.\n\n¡Sigue así guerrero/a! 🔥",
+        "additionalFields": {}
+      },
+      "id": "ad4b527c-7648-42f0-b331-e919dcded3a2",
+      "name": "Telegram - Enviar Logro",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1,
+      "position": [
+        928,
+        240
+      ],
+      "webhookId": "f9003fd8-2c50-4f4e-9901-77c4ae64a526",
+      "credentials": {
+        "telegramApi": {
+          "id": "DqnpONxfi4YIQzYV",
+          "name": "Telegram account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook - Rutina Completada": {
+      "main": [
+        [
+          {
+            "node": "Function - Contar y Verificar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Function - Contar y Verificar": {
+      "main": [
+        [
+          {
+            "node": "Telegram - Enviar Logro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "f16f92bd-562c-48c1-be55-e4ff9e9b1e09",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "181f472a6c6343e4956e9bddb28f6ee0f10b43398c55a025593b6df96987897f"
+  },
+  "id": "tBU7a2vUpNRmOlD6",
+  "tags": []
+}
